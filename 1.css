@@ -1,28 +1,68 @@
-
-
-#name{
-  font-size: 50px;
+body{
+  background-color: white;
   font-family: Arial, sans-serif;
-  font-weight: 600;
-  color: plum;
-}
-#rrrr{
-  font-size: 50px;
-  font-family: Arial, sans-serif;
-  font-weight: 600;
-  color: yellow;
-}
-.ddd{
+  margin: 0 0;
+  padding: 0 0;
+  position: relative; 
+  font-size: xx-large;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   
-  color:rgb(105, 255, 188);
 }
-.kkk{
-color:hotpink;
+
+p{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 50px;
+}
+h1{
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  margin-left: 100px;
+}
+img{
+ height: 100px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#username{
+  position: absolute;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
+}
+#address{
+  position: absolute;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
+}
+#email{
+  position: absolute;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
+}
+#phone{
+  position: absolute;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
+}
+#birth{
+  position: absolute;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
 }
 #sex{
-color: blue;
-}
-#pic{
-  height: 60px;
-  width: 60px;
+  position: absolute;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blueviolet;
 }
