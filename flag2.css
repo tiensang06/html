@@ -1,7 +1,7 @@
- #flag{
+#flag{
     width: 1200px;
     height: 650px;
-    background-color: red;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -23,16 +23,14 @@
     width: 100%;
     height: 300px;
     background-color: blue;
-    border-right: 25px solid white;
-    border-bottom: 25px solid white;
+   
     box-sizing: border-box;
 }
 .a2{
     width: 100%;
     height: 300px;
     background-color: blue;
-    border-right: 25px solid white;
-    border-top: 25px solid white;
+    
     box-sizing: border-box;
 }
 
@@ -48,8 +46,7 @@
     width: 100%;
     height: 300px;
     background-color: blue;
-    border-left: 25px solid white;
-    border-bottom: 25px solid white;
+    
     box-sizing: border-box;
 }
 
@@ -57,8 +54,8 @@
     width: 100%;
     height: 300px;
    background-color: blue;
-   border-left: 25px solid white;
-   border-top: 25px solid white;
+  
    box-sizing: border-box;
 }
 
+ 
