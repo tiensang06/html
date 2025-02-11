@@ -1,68 +1,48 @@
-body{
-  background-color: white;
+body {
+  background-color: #f4f4f4;
   font-family: Arial, sans-serif;
-  margin: 0 0;
-  padding: 0 0;
-  position: relative; 
-  font-size: xx-large;
-  color: black;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
   justify-content: center;
-  margin: 100px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
 
-p{
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-left: 50px;
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 400px;
 }
-h1{
-  font-size: 100px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black;
-  margin-left: 100px;
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
 }
-img{
- height: 100px;
-  width: 200px;
-  margin-left: 50px;
-  margin-top: 50px;
+
+.profile-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
-#username{
-  position: absolute;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.info {
+  text-align: left;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+span {
   color: blueviolet;
-}
-#address{
-  position: absolute;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: blueviolet;
-}
-#email{
-  position: absolute;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: blueviolet;
-}
-#phone{
-  position: absolute;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: blueviolet;
-}
-#birth{
-  position: absolute;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: blueviolet;
-}
-#sex{
-  position: absolute;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: blueviolet;
+  font-weight: bold;
 }

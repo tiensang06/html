@@ -1,0 +1,76 @@
+
+body {
+   background-color: #333;
+   font-size: 12px;
+}
+
+#flag {
+   background-image: repeating-linear-gradient(#b22234 0%, #b22234 7.69%, #fff 7.7%, #fff 15.385%);
+   width: 1068px;
+   height: 562px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#flagBlue {
+   position: absolute;
+   top: 0;
+   left: 0;
+   box-sizing: border-box;
+   padding-top: 8px;
+   width: 427px;
+   height: 302px;
+   background-color: #002058;
+}
+
+.row5, .row6 {
+   margin-bottom: -1.25rem;
+}
+
+.row5 {
+   margin-left: 2.3rem;
+}
+
+.five-pointed-star {
+   --star-color: #fff;
+   margin: 1.1rem;
+   font-size: 10rem;
+   position: relative;
+   display: inline-block;
+   width: 0px;
+   height: 0px;
+   border-right: 1rem solid transparent;
+   border-bottom: 0.7rem solid var(--star-color);
+   border-left: 1rem solid transparent;
+   transform: rotate(35deg);
+}
+
+.five-pointed-star:before {
+   border-bottom: 0.8rem solid var(--star-color);
+   border-left: 0.3rem solid transparent;
+   border-right: 0.3rem solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -0.45rem;
+   left: -0.65rem;
+   display: block;
+   content: "";
+   transform: rotate(-35deg);
+}
+
+.five-pointed-star:after {
+   position: absolute;
+   display: block;
+   top: 0.03rem;
+   left: -1.05rem;
+   width: 0;
+   height: 0;
+   border-right: 1rem solid transparent;
+   border-bottom: 0.7rem solid var(--star-color);
+   border-left: 1rem solid transparent;
+   transform: rotate(-70deg);
+   content: "";
+}
