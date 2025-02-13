@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 60px;
+
+}
+label{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 10px;
+}
+input{
+    font-size: 57px;
+    border-radius: 6px;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 96px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    
+}

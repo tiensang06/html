@@ -3,8 +3,8 @@ function big(num1, num2) {
     const bigNum2 = BigInt(num2);
 
     return {
-        sum: (bigNum1 + bigNum2).toString(),
-        product: (bigNum1 * bigNum2).toString()
+        cong: (bigNum1 + bigNum2).toString(),
+        nhan: (bigNum1 * bigNum2).toString()
     };
 }
 
@@ -13,6 +13,6 @@ function calculate() {
     const num2 = document.getElementById("num2").value;
 
     const result = big(num1, num2);
-    document.getElementById("sum").textContent = "Tổng: " + result.sum;
-    document.getElementById("product").textContent = "Tích: " + result.product;
+    document.getElementById("cong").textContent = "Tổng: " + result.cong;
+    document.getElementById("nhan").textContent = "Tích: " + result.nhan;
 }
